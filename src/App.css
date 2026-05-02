@@ -219,8 +219,8 @@ body {
 .btn-add {
   margin-top: 8px;
   padding: 11px 22px;
-  background: var(--accent);
-  color: white;
+  background: cornflowerblue;
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: var(--radius-sm);
   font-family: 'DM Sans', sans-serif;
@@ -232,7 +232,7 @@ body {
 }
 
 .btn-add:hover {
-  background: #27dada;
+  background: #0761bc;
   transform: translateY(-1px);
   box-shadow: 0 4px 18px var(--accent-glow);
 }
