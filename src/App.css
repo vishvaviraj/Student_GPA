@@ -232,7 +232,7 @@ body {
 }
 
 .btn-add:hover {
-  background: #0b8f8a;
+  background: #27dada;
   transform: translateY(-1px);
   box-shadow: 0 4px 18px var(--accent-glow);
 }
