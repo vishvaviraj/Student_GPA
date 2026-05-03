@@ -9,7 +9,7 @@ export default function TargetGPA({ currentGPA, targetGPA, setTargetGPA, modules
       .reduce((s, m) => s + +m.credits, 0);
     const totalCredits = doneCredits + remCredits;
     const donePoints = done.reduce((s, m) => {
-      const p = +m.marks >= 75 ? 4 : +m.marks >= 70 ? 3 : +m.marks >= 55 ? 2 : +m.marks >= 40 ? 1 : 0;
+      const p = +m.marks >= 85 ? 4 : +m.marks >= 70 ? 3 : +m.marks >= 55 ? 2 : +m.marks >= 40 ? 1 : 0;
       return s + p * +m.credits;
     }, 0);
     const needed = (targetGPA * totalCredits - donePoints) / remCredits;
