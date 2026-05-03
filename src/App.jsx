@@ -17,7 +17,7 @@ function calculateGPA(modules) {
 
     let gp;
     if (m >= 85)      { gp = 4.0; breakdown.A += c; }
-    else if (m >= 70) { gp = 3.0; breakdown.B += c; }
+    else if (m >= 75) { gp = 3.0; breakdown.B += c; }
     else if (m >= 55) { gp = 2.0; breakdown.C += c; }
     else if (m >= 40) { gp = 1.0; breakdown.D += c; }
     else              { gp = 0.0; breakdown.F += c; }
